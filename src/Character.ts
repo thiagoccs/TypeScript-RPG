@@ -85,6 +85,6 @@ export default class Character implements Fighter {
   }
 
   special?(enemy: SimpleFighter): void {
-    enemy.receiveDamage(this.strength * getRandomInt(0.1, 0.5));
+    enemy.receiveDamage(this._strength * getRandomInt(0.1, 0.5));
   }
 }
