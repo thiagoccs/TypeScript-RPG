@@ -17,8 +17,21 @@
 <h3> Instalando as dependencias </h3>
 
 <details>
-<h3> npm install </h3>
-<h2> Dentro do diretório raiz </h2>
-<h3> npm run compose:up </h3>
-<h3> npm start </h3>
+<p>
+<h4>Clone o repositório</h4> 
+git clone https://github.com/thiagoccs/TypeScript-RPG-backend.git
+
+<h4>Instale as dependências no diretório raiz</h4> 
+npm install
+
+<h4>Inicie o Docker Compose</h4> 
+docker-compose up -d
+
+<h4>Execute o container de maneira iterativa</h4> 
+docker exec -it trybers_and_dragon bash
+
+<h4>Instale as dependências <strong>(dentro do contâiner)</strong></h4>
+
+npm install
+</p>
 </details>
