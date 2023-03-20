@@ -19,19 +19,24 @@
 <details>
 <p>
 <h4>Clone o repositório</h4> 
-git clone https://github.com/thiagoccs/TypeScript-RPG-backend.git
+
+```git clone https://github.com/thiagoccs/TypeScript-RPG-backend.git```
 
 <h4>Instale as dependências no diretório raiz</h4> 
-npm install
+
+```npm install```
 
 <h4>Inicie o Docker Compose</h4> 
-docker-compose up -d
+
+```docker-compose up -d```
 
 <h4>Execute o container de maneira iterativa</h4> 
-docker exec -it trybers_and_dragon bash
+
+```docker exec -it trybers_and_dragon bash```
 
 <h4>Instale as dependências <strong>(dentro do contâiner)</strong></h4>
 
-npm install
+```npm install```
+
 </p>
 </details>
